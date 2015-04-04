@@ -22,7 +22,7 @@ module.exports = function(environment) {
       'script-src': "'self'",
       'font-src': "'self'",
       'connect-src': "'self' http://localhost:5000 http://api-laredo-bridges.herokuapp.com",
-      'img-src': "'self'",
+      'img-src': "'self' http://www.ci.laredo.tx.us",
       'style-src': "'self'",
       'media-src': "'self'"
     }
