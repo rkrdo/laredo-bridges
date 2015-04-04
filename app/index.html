@@ -17,6 +17,13 @@
   <body>
     {{content-for 'body'}}
 
+    <script>
+      paceOptions = {
+        elements: false,
+        restartOnRequestAfter: true,
+        restartOnPushState: false
+      };
+    </script>
     <script src="assets/vendor.js"></script>
     <script src="assets/laredo-cams.js"></script>
 
