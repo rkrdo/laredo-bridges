@@ -17,7 +17,11 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bridges <b class="caret"></b></a>
         <ul class="dropdown-menu">
           {{#each cam in model}}
-          <li>{{#link-to 'cams.cam' this class='list-group-item'}}{{cam.title}}{{/link-to}}</li>
+            <li>
+              {{#link-to 'cams.cam' cam class='list-group-item'}}
+                {{cam.title}}
+              {{/link-to}}
+            </li>
           {{/each}}
         </ul>
       </li>
@@ -32,7 +36,11 @@
       <h1 class='text-center'>Bridge Cams</h1>
       <ul class='list-group list-unstyled'>
         {{#each cam in model}}
-        <li>{{#link-to 'cams.cam' this class='list-group-item'}}{{cam.title}}{{/link-to}}</li>
+          <li>
+            {{#link-to 'cams.cam' cam class='list-group-item'}}
+              {{cam.title}}
+            {{/link-to}}
+          </li>
         {{/each}}
       </ul>
     </div>
@@ -42,7 +50,8 @@
   </div>
 </div>
 
-<footer class='container'>
-  <hr />
-  <p class='pull-right'>&copy; 2013 </p>
+<footer class='footer'>
+  <div class="container">
+    <p class='pull-right'>&copy; 2015 </p>
+  </div>
 </footer>
