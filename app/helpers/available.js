@@ -1,8 +1,10 @@
-import Ember from 'ember';
+//import Ember from 'ember';
 import availability from '../utils/availability';
 
-export function available(value) {
+// TODO use this shit once it works
+//export default Ember.HTMLBars.makeBoundHelper(function(value, options) {
+  //return availability(value);
+//});
+export default function(value) {
   return availability(value);
 }
-
-export default Ember.HTMLBars.makeBoundHelper(available);

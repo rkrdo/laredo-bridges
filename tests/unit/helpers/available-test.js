@@ -5,7 +5,6 @@ import { module, test } from 'qunit';
 
 module('AvailableHelper');
 
-// Replace this with your real tests.
 test('returns Unavailable if value is null', function(assert) {
   var result = available(null);
   assert.equal(result, 'Unavailable');
